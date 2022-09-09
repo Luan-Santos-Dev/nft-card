@@ -9,4 +9,4 @@ Obtive um bom resultado utilizando HTML e CSS.
 Para acessar a aplicação:
 </p>
 
-NFT preview card component
+https://luan-santos-dev.github.io/nft-card/
