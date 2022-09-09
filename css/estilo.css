@@ -8,12 +8,17 @@
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
     background-color: hsl(217, 54%, 11%);
 }
 
-div#card_nft {
+div.card_nft {
     width: 330px;
     height: 540px;
     padding: 22px;
@@ -29,18 +34,18 @@ div#card_nft {
     border-radius: 10px;
 }
 
-div#conteudo h3 {
+div.conteudo h3 {
     margin-top: 16px;
     color: hsl(0, 0%, 100%);
 }
 
-div#conteudo p {
+div.conteudo p {
     margin-top: 16px;
     font-weight: 300;
     color: hsl(215, 51%, 70%);
 }
 
-div#informacoes {
+div.informacoes {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -49,17 +54,17 @@ div#informacoes {
     margin-top: 16px;
 }
 
-div#informacoes span#part_1 {
+div.informacoes span.part_1 {
     color: hsl(178, 100%, 50%);
     font-weight: 600;
     letter-spacing: 1px;
 }
 
-div#informacoes span#part_2 {
+div.informacoes span.part_2 {
     color: hsl(215, 51%, 70%);
 }
 
-div#perfil_usuario {
+div.perfil_usuario {
     display: flex;
     align-items: center;
     margin-top: 17px;
@@ -67,17 +72,17 @@ div#perfil_usuario {
     height: 35px;
 }
 
-div#perfil_usuario img {
+div.perfil_usuario img {
     height: 30px;
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 15px;
 }
 
-div#perfil_usuario p {
+div.perfil_usuario p {
     margin: 0px 0px 0px 15px;
     height: 20px;
 }
 
-#customization_finish {
+.customization_finish {
     color: hsl(0, 0%, 100%);
 }
